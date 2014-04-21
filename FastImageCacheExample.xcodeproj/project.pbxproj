@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6008C04C19055A3600CC3580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6008C04B19055A3600CC3580 /* Foundation.framework */; };
+		6008C04E19055A3600CC3580 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6008C04D19055A3600CC3580 /* CoreGraphics.framework */; };
+		6008C05019055A3600CC3580 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6008C04F19055A3600CC3580 /* UIKit.framework */; };
+		6008C05619055A3600CC3580 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6008C05419055A3600CC3580 /* InfoPlist.strings */; };
+		6008C05819055A3600CC3580 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6008C05719055A3600CC3580 /* main.m */; };
+		6008C05C19055A3600CC3580 /* ORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6008C05B19055A3600CC3580 /* ORAppDelegate.m */; };
+		6008C05F19055A3600CC3580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6008C05D19055A3600CC3580 /* Main.storyboard */; };
+		6008C06219055A3600CC3580 /* ORViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6008C06119055A3600CC3580 /* ORViewController.m */; };
+		6008C06419055A3600CC3580 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6008C06319055A3600CC3580 /* Images.xcassets */; };
+		6008C06B19055A3700CC3580 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6008C06A19055A3700CC3580 /* XCTest.framework */; };
+		6008C06C19055A3700CC3580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6008C04B19055A3600CC3580 /* Foundation.framework */; };
+		6008C06D19055A3700CC3580 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6008C04F19055A3600CC3580 /* UIKit.framework */; };
+		6008C07519055A3700CC3580 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6008C07319055A3700CC3580 /* InfoPlist.strings */; };
+		6008C07719055A3700CC3580 /* FastImageCacheExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6008C07619055A3700CC3580 /* FastImageCacheExampleTests.m */; };
+		6008C08719055E2E00CC3580 /* ORImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6008C08619055E2E00CC3580 /* ORImage.m */; };
+		6008C08919055FB200CC3580 /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6008C08819055FB200CC3580 /* pizza.jpg */; };
+		85094F4EE85341DDBC9990F4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E74DB8CEEE24D2F963B8386 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6008C06E19055A3700CC3580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6008C04019055A3600CC3580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6008C04719055A3600CC3580;
+			remoteInfo = FastImageCacheExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16E379C09CE644E4908E13CD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		1E74DB8CEEE24D2F963B8386 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6008C04819055A3600CC3580 /* FastImageCacheExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastImageCacheExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6008C04B19055A3600CC3580 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6008C04D19055A3600CC3580 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6008C04F19055A3600CC3580 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6008C05319055A3600CC3580 /* FastImageCacheExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FastImageCacheExample-Info.plist"; sourceTree = "<group>"; };
+		6008C05519055A3600CC3580 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6008C05719055A3600CC3580 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6008C05919055A3600CC3580 /* FastImageCacheExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FastImageCacheExample-Prefix.pch"; sourceTree = "<group>"; };
+		6008C05A19055A3600CC3580 /* ORAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORAppDelegate.h; sourceTree = "<group>"; };
+		6008C05B19055A3600CC3580 /* ORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORAppDelegate.m; sourceTree = "<group>"; };
+		6008C05E19055A3600CC3580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6008C06019055A3600CC3580 /* ORViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORViewController.h; sourceTree = "<group>"; };
+		6008C06119055A3600CC3580 /* ORViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORViewController.m; sourceTree = "<group>"; };
+		6008C06319055A3600CC3580 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6008C06919055A3700CC3580 /* FastImageCacheExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastImageCacheExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6008C06A19055A3700CC3580 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6008C07219055A3700CC3580 /* FastImageCacheExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FastImageCacheExampleTests-Info.plist"; sourceTree = "<group>"; };
+		6008C07419055A3700CC3580 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6008C07619055A3700CC3580 /* FastImageCacheExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastImageCacheExampleTests.m; sourceTree = "<group>"; };
+		6008C08519055E2E00CC3580 /* ORImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORImage.h; sourceTree = "<group>"; };
+		6008C08619055E2E00CC3580 /* ORImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORImage.m; sourceTree = "<group>"; };
+		6008C08819055FB200CC3580 /* pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizza.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6008C04519055A3600CC3580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6008C04E19055A3600CC3580 /* CoreGraphics.framework in Frameworks */,
+				6008C05019055A3600CC3580 /* UIKit.framework in Frameworks */,
+				6008C04C19055A3600CC3580 /* Foundation.framework in Frameworks */,
+				85094F4EE85341DDBC9990F4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6008C06619055A3700CC3580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6008C06B19055A3700CC3580 /* XCTest.framework in Frameworks */,
+				6008C06D19055A3700CC3580 /* UIKit.framework in Frameworks */,
+				6008C06C19055A3700CC3580 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6008C03F19055A3600CC3580 = {
+			isa = PBXGroup;
+			children = (
+				6008C05119055A3600CC3580 /* FastImageCacheExample */,
+				6008C07019055A3700CC3580 /* FastImageCacheExampleTests */,
+				6008C04A19055A3600CC3580 /* Frameworks */,
+				6008C04919055A3600CC3580 /* Products */,
+				16E379C09CE644E4908E13CD /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		6008C04919055A3600CC3580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6008C04819055A3600CC3580 /* FastImageCacheExample.app */,
+				6008C06919055A3700CC3580 /* FastImageCacheExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6008C04A19055A3600CC3580 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6008C04B19055A3600CC3580 /* Foundation.framework */,
+				6008C04D19055A3600CC3580 /* CoreGraphics.framework */,
+				6008C04F19055A3600CC3580 /* UIKit.framework */,
+				6008C06A19055A3700CC3580 /* XCTest.framework */,
+				1E74DB8CEEE24D2F963B8386 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6008C05119055A3600CC3580 /* FastImageCacheExample */ = {
+			isa = PBXGroup;
+			children = (
+				6008C08519055E2E00CC3580 /* ORImage.h */,
+				6008C08619055E2E00CC3580 /* ORImage.m */,
+				6008C05A19055A3600CC3580 /* ORAppDelegate.h */,
+				6008C05B19055A3600CC3580 /* ORAppDelegate.m */,
+				6008C05D19055A3600CC3580 /* Main.storyboard */,
+				6008C06019055A3600CC3580 /* ORViewController.h */,
+				6008C06119055A3600CC3580 /* ORViewController.m */,
+				6008C06319055A3600CC3580 /* Images.xcassets */,
+				6008C05219055A3600CC3580 /* Supporting Files */,
+			);
+			path = FastImageCacheExample;
+			sourceTree = "<group>";
+		};
+		6008C05219055A3600CC3580 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6008C08819055FB200CC3580 /* pizza.jpg */,
+				6008C05319055A3600CC3580 /* FastImageCacheExample-Info.plist */,
+				6008C05419055A3600CC3580 /* InfoPlist.strings */,
+				6008C05719055A3600CC3580 /* main.m */,
+				6008C05919055A3600CC3580 /* FastImageCacheExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6008C07019055A3700CC3580 /* FastImageCacheExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6008C07619055A3700CC3580 /* FastImageCacheExampleTests.m */,
+				6008C07119055A3700CC3580 /* Supporting Files */,
+			);
+			path = FastImageCacheExampleTests;
+			sourceTree = "<group>";
+		};
+		6008C07119055A3700CC3580 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6008C07219055A3700CC3580 /* FastImageCacheExampleTests-Info.plist */,
+				6008C07319055A3700CC3580 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6008C04719055A3600CC3580 /* FastImageCacheExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6008C07A19055A3700CC3580 /* Build configuration list for PBXNativeTarget "FastImageCacheExample" */;
+			buildPhases = (
+				FE00AAAB729F43C6A233C066 /* Check Pods Manifest.lock */,
+				6008C04419055A3600CC3580 /* Sources */,
+				6008C04519055A3600CC3580 /* Frameworks */,
+				6008C04619055A3600CC3580 /* Resources */,
+				89290618EBFE4A76899EC2AF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastImageCacheExample;
+			productName = FastImageCacheExample;
+			productReference = 6008C04819055A3600CC3580 /* FastImageCacheExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6008C06819055A3700CC3580 /* FastImageCacheExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6008C07D19055A3700CC3580 /* Build configuration list for PBXNativeTarget "FastImageCacheExampleTests" */;
+			buildPhases = (
+				6008C06519055A3700CC3580 /* Sources */,
+				6008C06619055A3700CC3580 /* Frameworks */,
+				6008C06719055A3700CC3580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6008C06F19055A3700CC3580 /* PBXTargetDependency */,
+			);
+			name = FastImageCacheExampleTests;
+			productName = FastImageCacheExampleTests;
+			productReference = 6008C06919055A3700CC3580 /* FastImageCacheExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6008C04019055A3600CC3580 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Orta;
+				TargetAttributes = {
+					6008C06819055A3700CC3580 = {
+						TestTargetID = 6008C04719055A3600CC3580;
+					};
+				};
+			};
+			buildConfigurationList = 6008C04319055A3600CC3580 /* Build configuration list for PBXProject "FastImageCacheExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6008C03F19055A3600CC3580;
+			productRefGroup = 6008C04919055A3600CC3580 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6008C04719055A3600CC3580 /* FastImageCacheExample */,
+				6008C06819055A3700CC3580 /* FastImageCacheExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6008C04619055A3600CC3580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6008C08919055FB200CC3580 /* pizza.jpg in Resources */,
+				6008C06419055A3600CC3580 /* Images.xcassets in Resources */,
+				6008C05619055A3600CC3580 /* InfoPlist.strings in Resources */,
+				6008C05F19055A3600CC3580 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6008C06719055A3700CC3580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6008C07519055A3700CC3580 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89290618EBFE4A76899EC2AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE00AAAB729F43C6A233C066 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6008C04419055A3600CC3580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6008C05819055A3600CC3580 /* main.m in Sources */,
+				6008C08719055E2E00CC3580 /* ORImage.m in Sources */,
+				6008C05C19055A3600CC3580 /* ORAppDelegate.m in Sources */,
+				6008C06219055A3600CC3580 /* ORViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6008C06519055A3700CC3580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6008C07719055A3700CC3580 /* FastImageCacheExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6008C06F19055A3700CC3580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6008C04719055A3600CC3580 /* FastImageCacheExample */;
+			targetProxy = 6008C06E19055A3700CC3580 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6008C05419055A3600CC3580 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6008C05519055A3600CC3580 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6008C05D19055A3600CC3580 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6008C05E19055A3600CC3580 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6008C07319055A3700CC3580 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6008C07419055A3700CC3580 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6008C07819055A3700CC3580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6008C07919055A3700CC3580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6008C07B19055A3700CC3580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E379C09CE644E4908E13CD /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FastImageCacheExample/FastImageCacheExample-Prefix.pch";
+				INFOPLIST_FILE = "FastImageCacheExample/FastImageCacheExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6008C07C19055A3700CC3580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E379C09CE644E4908E13CD /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FastImageCacheExample/FastImageCacheExample-Prefix.pch";
+				INFOPLIST_FILE = "FastImageCacheExample/FastImageCacheExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6008C07E19055A3700CC3580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FastImageCacheExample.app/FastImageCacheExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FastImageCacheExample/FastImageCacheExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FastImageCacheExampleTests/FastImageCacheExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6008C07F19055A3700CC3580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FastImageCacheExample.app/FastImageCacheExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FastImageCacheExample/FastImageCacheExample-Prefix.pch";
+				INFOPLIST_FILE = "FastImageCacheExampleTests/FastImageCacheExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6008C04319055A3600CC3580 /* Build configuration list for PBXProject "FastImageCacheExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6008C07819055A3700CC3580 /* Debug */,
+				6008C07919055A3700CC3580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6008C07A19055A3700CC3580 /* Build configuration list for PBXNativeTarget "FastImageCacheExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6008C07B19055A3700CC3580 /* Debug */,
+				6008C07C19055A3700CC3580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6008C07D19055A3700CC3580 /* Build configuration list for PBXNativeTarget "FastImageCacheExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6008C07E19055A3700CC3580 /* Debug */,
+				6008C07F19055A3700CC3580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6008C04019055A3600CC3580 /* Project object */;
+}
