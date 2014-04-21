@@ -9,7 +9,7 @@ I didn't write [FastImageCache](https://github.com/path/FastImageCache).
 
 Setup the `FICImageCache` somewhere, an easy place to start it App Delegate
 
-```
+``` objc
     // Configure the image cache
     FICImageCache *sharedImageCache = [FICImageCache sharedImageCache];
     [sharedImageCache setDelegate:self];
